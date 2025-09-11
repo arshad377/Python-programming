@@ -1,0 +1,10 @@
+# Reverse a string
+s=input("Enter a string= ")
+rev=""
+for i in s:
+    rev=i+rev
+print("Reversed=" ,rev)
+#####################################
+s=input("Enter a string= ")
+reversed_text=" ".join(s.split()[::-1])
+print(reversed_text)
