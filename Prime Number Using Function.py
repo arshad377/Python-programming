@@ -6,7 +6,7 @@ def prime():
     else:
         ass="prime number"
         for i in range(2,n):
-            if n%2==0:
+            if n%i==0:
                 ass="not prime number"
                 break
         if ass=="prime number":
